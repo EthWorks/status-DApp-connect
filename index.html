@@ -5,10 +5,97 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="assets/css/styles.css" rel="stylesheet" />
 		<title>DApp Connect</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 	</head>
-	<body>
-		<div class="container mx-auto py-12">
-			<h1 class="text-4xl font-bold text-gray-900">Initial project</h1>
+	<body class="text-rectangle97">
+		<div class="container mx-auto">
+
+			<!-- HERO -->
+			<section class="py-10 mb-10 border-b border-grey md:pl-20 lg:flex lg:justify-center lg:py-26 lg:mb-26">
+				<div class="max-w-lg md:max-w-2xl">
+					<h1 class="text-title md:text-3.5xl">Empower your dApp with decentralized communication</h1>
+					<p class="text-sm italic my-8 opacity-75 max-w-31 sm:pr-7">DappConnect gives you the tools to seamlessly enable your project with off-chain communication for decentralized, private, and secure messaging.</p>
+					<a class="text-blue text-xs font-bold italic bg-link-arrow-blue bg-left bg-no-repeat pl-3 hover:underline" href="" >See the docs</a>
+				</div>
+			</section>
+
+			<!-- Grid section -->
+			<section class="flex flex-col items-center mb-18 md:mb-20 lg:mb-32">
+				<h2 class="font-bold text-sm leading-6 mb-18">The future of Communication</h2>
+				<div class="grid grid-cols-1 gap-16 md:grid-cols-3 md:gap-4 lg:px-35 lg:gap-22">
+					<div class="flex flex-col items-center">
+						<img src="./assets/images/photo1.svg" alt="Private and Secure by Design">
+						<h3 class="font-bold text-sm text-center leading-6 my-4">Private and Secure by Design</h3>
+						<p class="text-sm text-center leading-6 opacity-75">Leveraging peer-to-peer messaging protocols and tools for strong end-to-end encryption, DappConnect is designed to protect your users.</p>
+					</div>
+					<div class="flex flex-col items-center">
+						<img src="./assets/images/photo2.svg" alt="Decentralized Messaging">
+						<h3 class="font-bold text-sm text-center leading-6 my-4">Decentralized Messaging</h3>
+						<p class="text-sm text-center leading-6 opacity-75">Adopt DappConnect to protect your users from censorship and remove the need for centralized infrastructure.</p>
+					</div>
+					<div class="flex flex-col items-center">
+						<img src="./assets/images/photo3.svg" alt="dApp Ready">
+						<h3 class="font-bold text-sm text-center leading-6 my-4">dApp Ready</h3>
+						<p class="text-sm text-center leading-6 opacity-75">Optimized for mobile and web platforms, DappConnect can be used by any project built on Ethereum or other blockchains. </p>
+					</div>
+				</div>
+			</section>
+
+			<!-- section code -->
+			<section class="border-b border-grey pb-10 mb-10 md:border-0 lg:border-b lg:flex lg:justify-between lg:px-28 lg:pb-25 lg:mb-25">
+				<div class="mb-11 md:mb-15 lg:max-w-xs">
+					<h2 class="font-bold text-sm leading-6 whitespace-nowrap mb-4">Get started with DappConnect in Minutes</h2>
+					<p class="text-sm leading-6 italic opacity-75 mb-7">The simple API allows you to introduce decentralized, private, secure communication in your application in minutes.</p>
+					<a class="text-blue text-xs font-bold italic bg-link-arrow-blue bg-left bg-no-repeat pl-3 hover:underline" href="" >Get started</a>
+				</div>
+				<div class="bg-rectangle97 p-4 md:px-8 lg:max-w-code lg:w-full">
+					<pre><code class="text-rectangle102 text-sm font-special">
+{
+	<span class="text-rectangle99">"AdvertiseAddr"</span>: "YOUR_PUBLIC_IP",
+	<span class="text-rectangle99">"ListenAddr"</span>: "0.0.0.0:30303",
+	<span class="text-rectangle99">"HTTPEnabled"</span>: true,
+	<span class="text-rectangle99">"HTTPHost"</span>: "127.0.0.1",
+	<span class="text-rectangle99">"HTTPPort"</span>: 8545,
+	<span class="text-rectangle99">"APIModules"</span>: <br> "eth,net,web3,admin,mailserver",
+	<span class="text-rectangle99">"RegisterTopics"</span>: ["whispermail"],
+	<span class="text-rectangle99">"WakuConfig"</span>: {
+		<span class="text-rectangle99">"Enabled"</span>: true,
+}
+						</code></pre>
+				</div>
+			</section>
+
+			<!-- Use Cases -->
+			<section class="border-b border-grey pb-10 mb-10 md:pb-20 md:mb-20 lg:flex lg:justify-between lg:px-28 lg:pb-25 lg:mb-25">
+				<div class="mb-11 md:mb-5 lg:max-w-xs lg:mb-0 lg:mr-15">
+					<h2 class="font-bold text-sm leading-6 whitespace-nowrap mb-4">Use Cases</h2>
+					<p class="text-sm leading-6 italic opacity-75 mb-7">Anything that can be done off-chain can be done with DappConnect. Here are just a few examples.</p>
+					<a class="text-blue text-xs font-bold italic bg-link-arrow-blue bg-left bg-no-repeat pl-3 hover:underline" href="">Get inspired, view more use cases</a>
+				</div>
+				<div class="grid gap-4 w-full sm:grid-cols-2 md:gap-x-6">
+					<div class="flex flex-col items-end justify-end bg-green pt-10 px-4 pb-5 md:h-58 md:p-10">
+						<h3 class="font-bold text-sm leading-6 whitespace-nowrap mb-5 md:mb-7">Decentralized Chat</h3>
+						<a class="text-black text-xs font-bold italic bg-link-arrow-black bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
+					</div>
+
+					<div class="flex flex-col items-end justify-end bg-rectangle99 pt-10 px-4 pb-5 md:h-58 md:p-10">
+						<h3 class="font-bold text-sm leading-6 whitespace-nowrap mb-5 md:mb-7">Gasless Polling</h3>
+						<a class="text-black text-xs font-bold italic bg-link-arrow-black bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
+					</div>
+
+					<div class="flex flex-col items-end justify-end bg-rectangle96 pt-10 px-4 pb-5 md:h-58 md:p-10">
+						<h3 class="font-bold text-sm text-rectangle99 leading-6 whitespace-nowrap mb-5 md:mb-7">dApp to Wallet Notifications</h3>
+						<a class="text-black text-xs text-rectangle99 font-bold italic bg-link-arrow-green bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
+					</div>
+
+					<div class="flex flex-col items-end justify-end bg-rectangle98 pt-10 px-4 pb-5 md:h-58 md:p-10">
+						<h3 class="font-bold text-sm leading-6 whitespace-nowrap mb-5 md:mb-7">Layer 2 Communication</h3>
+						<a class="text-black text-xs font-bold italic bg-link-arrow-black bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
+					</div>
+				</div>
+			</section>
 		</div>
 	</body>
 </html>
