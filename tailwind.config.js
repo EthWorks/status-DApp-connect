@@ -2,6 +2,10 @@ module.exports = {
 	purge: ["./src/**/*.css", "./**/*.html"],
 	darkMode: false,
 	theme: {
+		boxShadow: {
+			DEFAULT: '0px 10px 15px rgba(31, 41, 55, 0.1), 0px 0px 6px rgba(31, 41, 55, 0.05)',
+			none: 'none',
+		},
 		colors: {
 			rectangle96: '#1746CA',
 			rectangle97: '#132644',
@@ -9,6 +13,7 @@ module.exports = {
 			rectangle99: '#E1FF67',
 			rectangle101: '#242424',
 			rectangle102: '#fff',
+			black: '#000000',
 			blue: '#3A71F9',
 			grey: '#D5D5D5',
 			green: '#60D086',
@@ -51,11 +56,16 @@ module.exports = {
 			height: theme => ({
 				'58': '14.5rem',
 			}),
+			width: theme => ({
+				'22': '5.5rem',
+			}),
 			maxWidth: theme => ({
 				'31': '31rem',
 				'code': '38.375rem'
 			}),
 			padding: theme => ({
+				'13': '3.125rem',
+				'22': '5.5rem',
 				'25': '6.25rem',
 				'26': '6.5rem',
 				'35': '8.75rem',

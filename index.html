@@ -9,7 +9,74 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 	</head>
-	<body class="text-rectangle97">
+	<body class="text-rectangle97 overflow-x-hidden">
+
+		<header class="lg:px-8 xl:px-13">
+			<div class="relative flex justify-between items-center py-2 px-4 md:py-8 md:px-10 md:border-b md:border-grey lg:px-0">
+				<svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+					<path d="M30.4191 5.7826C27.0753 3.8861 23.8255 2.04303 20.5756 0.199959C20.025 -0.10722 19.4879 -0.0537975 18.9507 0.253381C13.0151 3.6457 7.07946 7.02467 1.15726 10.417C0.969256 10.5238 0.794679 10.831 0.794679 11.0447C0.78125 17.816 0.767821 24.5739 0.808108 31.3318C0.808108 31.7726 1.14383 32.4003 1.50642 32.614C4.70253 34.4971 7.93892 36.3001 11.1753 38.1298C11.2022 38.1432 11.2559 38.1298 11.4036 38.1298C11.4036 37.8761 11.4036 37.609 11.4036 37.3552C11.4036 30.7041 11.417 24.0664 11.3902 17.4153C11.3902 16.7876 11.6185 16.4938 12.1288 16.2133C18.0778 12.8477 24.0135 9.46874 29.9491 6.08977C30.07 6.023 30.2042 5.92951 30.4191 5.7826Z" fill="#132644"/>
+					<path d="M25.1279 40.0001C25.1279 39.693 25.1279 39.4392 25.1279 39.1988C25.1279 34.5511 25.1413 29.9033 25.1144 25.2422C25.1144 24.6412 25.289 24.3207 25.8262 24.0269C29.9623 21.7163 34.0716 19.3658 38.1943 17.0285C38.3958 16.9217 38.5838 16.8015 38.8255 16.6546C38.718 16.5611 38.6509 16.4809 38.5569 16.4275C35.8711 14.8916 33.1719 13.3691 30.4995 11.8065C29.7072 11.339 29.0223 11.3257 28.2031 11.7931C24.2013 14.1037 20.1726 16.3741 16.1439 18.6446C15.7007 18.885 15.5664 19.1654 15.5664 19.6596C15.5798 24.294 15.5798 28.915 15.5664 33.5494C15.5664 34.2439 15.7813 34.7915 16.399 35.1387C19.1788 36.7147 21.9452 38.2773 24.725 39.8532C24.819 39.9067 24.9399 39.9334 25.1279 40.0001Z" fill="#132644"/>
+					<path d="M38.9064 32.2405C35.67 30.3974 32.5545 28.6345 29.3584 26.8181C29.3584 30.4642 29.3584 33.9901 29.3584 37.6629C32.5276 35.8599 35.6432 34.0969 38.9064 32.2405Z" fill="#132644"/>
+				</svg>
+				<div id="menu-wrapper" class="absolute z-10 top-0 left-0 transform -translate-y-full duration-200 w-screen h-screen flex md:bg-green md:top-1/2 md:left-1/2 md:transform md:-translate-y-2/4 md:-translate-x-2/4 md:w-auto md:h-auto">
+					<div class="bg-black opacity-40 w-1/4 h-full md:hidden"></div>
+					<div class="flex flex-col bg-rectangle102 w-3/4 h-full p-6 pt-20 md:p-0 md:w-full">
+						<nav class="mb-auto">
+							<ul class="md:flex">
+								<li class="items-center menu-item relative mb-8 cursor-pointer md:flex md:m-0 md:py-2">
+									<a class="font-special font-bold text-xs" href="">Docs</a>
+									<img class="hidden transform duration-200 rotate-90 ml-2 md:block" src="./assets/images/arrow/arrow-black.svg" alt="">
+									<ul class="bg-rectangle102 md:absolute md:top-full md:left-2/4 md:transform md:-translate-x-2/4 md:p-4 md:shadow md:hidden">
+										<li class="my-4 md:my-0 md:mb-4"><a class="font-special font-medium text-xs whitespace-nowrap hover:text-blue hover:underline" href="">Quick Start</a></li>
+										<li class="mb-4"><a class="font-special font-medium text-xs whitespace-nowrap hover:text-blue hover:underline" href="">Guides</a></li>
+										<li class="mb-4"><a class="font-special font-medium text-xs whitespace-nowrap hover:text-blue hover:underline" href="">Docs</a></li>
+										<li><a class="font-special font-medium text-xs whitespace-nowrap hover:text-blue hover:underline" href="">Github</a></li>
+									</ul>
+								</li>
+								<li class="menu-item md:m-0 cursor-pointer md:mx-16 md:py-2">
+									<a class="font-special font-bold text-xs" href="">Use Cases</a>
+								</li>
+								<li class="items-center menu-item relative mb-8 cursor-pointer md:flex md:m-0 md:py-2">
+									<a class="font-special font-bold text-xs" href="">About us</a>
+									<img class="hidden transform duration-200 rotate-90 ml-2 md:block" src="./assets/images/arrow/arrow-black.svg" alt="">
+									<ul class="bg-rectangle102 md:absolute md:top-full md:left-2/4 md:transform md:-translate-x-2/4 md:p-4 md:shadow md:hidden">
+										<li class="my-4 md:my-0 md:mb-4"><a class="font-special font-medium text-xs whitespace-nowrap hover:text-blue hover:underline" href="">About us</a></li>
+										<li class="mb-4"><a class="font-special font-medium text-xs whitespace-nowrap hover:text-blue hover:underline" href="">Careers</a></li>
+										<li class="mb-4"><a class="font-special font-medium text-xs whitespace-nowrap hover:text-blue hover:underline" href="">Blog</a></li>
+										<li><a class="font-special font-medium text-xs whitespace-nowrap hover:text-blue hover:underline" href="">Forum</a></li>
+									</ul>
+								</li>
+							</ul>
+							<button class="border border-rectangle97 font-bold text-xs py-3 px-6 md:hidden">Get Started</button>
+						</nav>
+						<div class="flex items-center justify-center md:hidden">
+							<a href="">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C18.6274 0 24 5.37259 24 12C24 18.6274 18.6274 24 12 24C5.37259 24 0 18.6274 0 12C0 5.37259 5.37259 0 12 0ZM7.56029 18.3317C7.56029 18.3317 8.1648 17.6592 8.59973 17.0662C6.50477 16.4729 5.71493 15.2865 5.71493 15.2865C7.89312 16.6332 9.92741 17.1514 12 17.0841C14.0726 17.1513 16.1069 16.6332 18.2848 15.2865C18.2848 15.2865 17.4952 16.4729 15.4 17.0662C15.8351 17.6594 16.4394 18.3317 16.4394 18.3317C19.3784 18.267 20.8461 16.7848 21.3275 16.2986C21.4348 16.1902 21.4931 16.1313 21.5078 16.1486C21.5078 11.2526 19.1309 7.26605 19.1309 7.26605C17.0037 5.73965 15.0216 5.67619 14.6429 5.66827L14.4011 5.89766C17.1165 6.65698 18.4299 7.84344 18.4299 7.84344C16.0993 6.71779 13.9028 6.32184 12 6.29813C10.0972 6.32213 7.9008 6.71779 5.57011 7.84344C5.57011 7.84344 6.88349 6.65698 9.59885 5.89766L9.35712 5.66827C8.9784 5.67619 6.99629 5.73946 4.86912 7.26605C4.86912 7.26605 2.49221 11.2525 2.49221 16.1486C2.50689 16.1313 2.56519 16.1902 2.67246 16.2986C3.15385 16.7847 4.62153 18.267 7.56029 18.3317ZM14.9237 11.2374V11.2295C15.8422 11.2295 16.5835 11.9889 16.5835 12.9222C16.5835 13.8555 15.8422 14.6149 14.9237 14.6149C14.0051 14.6149 13.2638 13.8555 13.2638 12.9301C13.2638 11.9967 14.0131 11.2374 14.9237 11.2374ZM9.07449 11.2367V11.2288C8.15591 11.2288 7.41465 11.9881 7.41465 12.9214C7.41465 13.8548 8.15596 14.6142 9.07449 14.6142C9.99302 14.6142 10.7344 13.8548 10.7344 12.9294C10.7344 11.996 9.985 11.2367 9.07449 11.2367Z" fill="currentColor"/>
+								</svg>
+							</a>
+							<a href="" class="mx-10">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none">
+									<path d="M24.0684 4.34768C23.1733 4.74583 22.2196 5.00973 21.2253 5.13787C22.2482 4.51853 23.0289 3.54529 23.396 2.37221C22.4423 2.94884 21.3893 3.35613 20.2671 3.58343C19.3615 2.60561 18.0708 2 16.6628 2C13.9311 2 11.7318 4.24853 11.7318 7.00503C11.7318 7.40165 11.7649 7.78302 11.8462 8.14608C7.744 7.94319 4.11419 5.94942 1.67576 2.91223C1.25005 3.66123 1.00034 4.51853 1.00034 5.44144C1.00034 7.17436 1.88034 8.7105 3.19207 9.59984C2.39932 9.58459 1.62161 9.35119 0.962735 8.98355C0.962735 8.99881 0.962735 9.01864 0.962735 9.03847C0.962735 11.4701 2.67309 13.4898 4.91597 13.955C4.51432 14.0664 4.07658 14.1198 3.62229 14.1198C3.30639 14.1198 2.98749 14.1015 2.68814 14.0344C3.32745 16.0159 5.14161 17.4727 7.29874 17.52C5.61997 18.8518 3.48841 19.6541 1.18085 19.6541C0.776205 19.6541 0.388103 19.6358 0 19.5855C2.18571 21.0149 4.77607 21.831 7.5695 21.831C16.6493 21.831 21.6134 14.2037 21.6134 7.59234C21.6134 7.37114 21.6059 7.15758 21.5953 6.94554C22.5746 6.24078 23.3975 5.36059 24.0684 4.34768Z" fill="currentColor"/>
+								</svg>
+							</a>
+							<a href="">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none">
+									<path d="M11.9985 0.000183105C5.373 0.000183105 0.0289935 5.50878 0.0647597 12.3041C0.0933662 17.7392 3.55564 22.3501 8.33421 23.9785C8.9348 24.0919 9.1518 23.712 9.15009 23.3857C9.14855 23.0931 9.13397 22.3195 9.12257 21.2931C5.78898 22.0361 5.07139 19.6433 5.07139 19.6433C4.51941 18.2217 3.72991 17.8434 3.72991 17.8434C2.6354 17.0805 3.80698 17.0958 3.80698 17.0958C5.01194 17.1831 5.65116 18.3642 5.65116 18.3642C6.73205 20.2438 8.46769 19.7015 9.15003 19.386C9.25385 18.5909 9.56149 18.0486 9.90337 17.7407C7.23774 17.4298 4.43018 16.3743 4.40537 11.6608C4.3983 10.3173 4.86052 9.21896 5.62399 8.35805C5.49785 8.04708 5.08027 6.79555 5.72386 5.10283C5.72386 5.10283 6.73012 4.77195 9.03049 6.36356C9.98606 6.09089 11.0113 5.95455 12.0328 5.94996C13.0513 5.95608 14.0796 6.09089 15.0395 6.36509C17.3216 4.77348 18.3299 5.10437 18.3299 5.10437C18.9928 6.79861 18.5884 8.04862 18.467 8.35959C19.241 9.22049 19.7103 10.3188 19.7174 11.6623C19.7423 16.3881 16.9427 17.4282 14.2713 17.7331C14.7038 18.113 15.0918 18.8636 15.0978 20.011C15.1065 21.6562 15.0985 22.9828 15.1006 23.3857C15.1023 23.715 15.3203 24.098 15.9287 23.977C20.6826 22.3471 24.0934 17.7377 24.0648 12.3041C24.029 5.50878 18.627 0.000183105 11.9985 0.000183105Z" fill="currentcolor"/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+				<button class="hidden border border-rectangle97 font-bold text-xs py-3 px-6 transition-colors duration-200 hover:bg-rectangle97 hover:text-rectangle102 md:block ">Get Started</button>
+				<button id="burger" class="flex z-30 flex-col justify-center items-center w-12 h-12 md:hidden">
+					<span class="block w-6 h-0.5 bg-rectangle97"></span>
+					<span class="block w-6 h-0.5 bg-rectangle97 my-1.5"></span>
+					<span class="block w-6 h-0.5 bg-rectangle97"></span>
+				</button>
+			</div>
+		</header>
+
 		<div class="container mx-auto">
 
 			<!-- HERO -->
@@ -75,27 +142,29 @@
 					<a class="text-blue text-xs font-bold italic bg-link-arrow-blue bg-left bg-no-repeat pl-3 hover:underline" href="">Get inspired, view more use cases</a>
 				</div>
 				<div class="grid gap-4 w-full sm:grid-cols-2 md:gap-x-6">
-					<div class="flex flex-col items-end justify-end bg-green pt-10 px-4 pb-5 md:h-58 md:p-10">
-						<h3 class="font-bold text-sm leading-6 whitespace-nowrap mb-5 md:mb-7">Decentralized Chat</h3>
+					<div class="flex flex-col items-end justify-end bg-green pt-10 px-4 pb-5 md:h-58 xl:p-10">
+						<h3 class="font-bold text-sm text-right leading-6 mb-5 md:mb-7">Decentralized Chat</h3>
 						<a class="text-black text-xs font-bold italic bg-link-arrow-black bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
 					</div>
 
-					<div class="flex flex-col items-end justify-end bg-rectangle99 pt-10 px-4 pb-5 md:h-58 md:p-10">
-						<h3 class="font-bold text-sm leading-6 whitespace-nowrap mb-5 md:mb-7">Gasless Polling</h3>
+					<div class="flex flex-col items-end justify-end bg-rectangle99 pt-10 px-4 pb-5 md:h-58 xl:p-10">
+						<h3 class="font-bold text-sm text-right leading-6 mb-5 md:mb-7">Gasless Polling</h3>
 						<a class="text-black text-xs font-bold italic bg-link-arrow-black bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
 					</div>
 
-					<div class="flex flex-col items-end justify-end bg-rectangle96 pt-10 px-4 pb-5 md:h-58 md:p-10">
-						<h3 class="font-bold text-sm text-rectangle99 leading-6 whitespace-nowrap mb-5 md:mb-7">dApp to Wallet Notifications</h3>
-						<a class="text-black text-xs text-rectangle99 font-bold italic bg-link-arrow-green bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
+					<div class="flex flex-col items-end justify-end bg-rectangle96 pt-10 px-4 pb-5 md:h-58 xl:p-10">
+						<h3 class="font-bold text-sm text-right text-rectangle99 leading-6 mb-5 md:mb-7">dApp to Wallet Notifications</h3>
+						<a class="text-rectangle99 text-xs text-rectangle99 font-bold italic bg-link-arrow-green bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
 					</div>
 
-					<div class="flex flex-col items-end justify-end bg-rectangle98 pt-10 px-4 pb-5 md:h-58 md:p-10">
-						<h3 class="font-bold text-sm leading-6 whitespace-nowrap mb-5 md:mb-7">Layer 2 Communication</h3>
+					<div class="flex flex-col items-end justify-end bg-rectangle98 pt-10 px-4 pb-5 md:h-58 xl:p-10">
+						<h3 class="font-bold text-sm text-right leading-6 mb-5 md:mb-7">Layer 2 Communication</h3>
 						<a class="text-black text-xs font-bold italic bg-link-arrow-black bg-left bg-no-repeat pl-3 hover:underline" href="">View the guide</a>
 					</div>
 				</div>
 			</section>
 		</div>
+
+		<script src="./src/main.js"></script>
 	</body>
 </html>

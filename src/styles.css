@@ -7,3 +7,19 @@
 }
 
 @tailwind utilities;
+
+.menu-item:hover ul {
+    display: block;
+}
+
+.menu-item:hover img {
+    @apply -rotate-90
+}
+
+.menu-visible {
+    @apply translate-y-0
+}
+
+.body-noScroll {
+    @apply overflow-hidden
+}
