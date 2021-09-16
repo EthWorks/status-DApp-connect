@@ -52,19 +52,25 @@ module.exports = {
 			},
 			gap: theme => ({
 				'22': '5.5rem',
+				'26': '6.875rem',
 			}),
 			height: theme => ({
+				'17': '4.188rem',
 				'58': '14.5rem',
 			}),
 			width: theme => ({
+				'17': '4.188rem',
 				'22': '5.5rem',
 			}),
 			maxWidth: theme => ({
 				'31': '31rem',
+				'32.5': '32.5rem',
 				'code': '38.375rem'
 			}),
 			padding: theme => ({
 				'13': '3.125rem',
+				'15': '3.75rem',
+				'18': '4.5rem',
 				'22': '5.5rem',
 				'25': '6.25rem',
 				'26': '6.5rem',
@@ -73,6 +79,7 @@ module.exports = {
 			margin: theme => ({
 				'15': '3.75rem',
 				'18': '4.5rem',
+				'22': '5.5rem',
 				'25': '6.25rem',
 				'26': '6.5rem',
 			}),
