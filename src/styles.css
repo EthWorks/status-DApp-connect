@@ -9,7 +9,7 @@
 @tailwind utilities;
 
 .menu-item:hover ul {
-    display: block;
+    @apply block
 }
 
 .menu-item:hover img {
@@ -25,7 +25,6 @@
 }
 
 #code br {
-    display: block;
     content: "";
-    margin-top: 0;
+    @apply block mt-0
 }

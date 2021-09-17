@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="./css/styles.css" rel="stylesheet" />
+		<link href="./assets/css/styles.css" rel="stylesheet" />
 		<title>DApp Connect</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,11 @@
 				</svg>
 				<div id="menu-wrapper" class="absolute z-10 top-0 left-0 transform -translate-y-full duration-200 w-screen h-screen flex md:bg-green md:top-1/2 md:left-1/2 md:transform md:-translate-y-2/4 md:-translate-x-2/4 md:w-auto md:h-auto">
 					<div class="bg-black opacity-40 w-1/4 h-full md:hidden"></div>
-					<div class="flex flex-col overflow-y-auto bg-rectangle102 w-3/4 h-full p-6 pt-20 md:p-0 md:w-full md:overflow-visible">
+					<div class="flex flex-col overflow-y-auto bg-rectangle102 w-3/4 h-full p-6 md:p-0 md:w-full md:overflow-visible">
+						<button class="button--close absolute top-2 right-2 flex z-30 flex-col justify-center items-center w-12 h-12 md:hidden">
+							<span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-45 block w-6 h-0.5 bg-rectangle97"></span>
+							<span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 block w-6 h-0.5 bg-rectangle97"></span>
+						</button>
 						<nav class="mb-auto">
 							<ul class="md:flex">
 								<li class="items-center menu-item relative mb-8 cursor-pointer md:flex md:m-0 md:py-2">
@@ -74,10 +78,10 @@
 					</div>
 				</div>
 				<button class="hidden border border-rectangle97 font-bold text-xs py-3 px-6 transition-colors duration-200 hover:bg-rectangle97 hover:text-rectangle102 md:block ">Get Started</button>
-				<button id="burger" class="flex z-30 flex-col justify-center items-center w-12 h-12 md:hidden">
-					<span class="block w-6 h-0.5 bg-rectangle97"></span>
-					<span class="block w-6 h-0.5 bg-rectangle97 my-1.5"></span>
-					<span class="block w-6 h-0.5 bg-rectangle97"></span>
+				<button id="burger" class="relative flex flex-col justify-center items-center w-12 h-12 md:hidden">
+					<span id="line-top" class="block w-6 h-0.5 bg-rectangle97"></span>
+					<span id="line-middle" class="block w-6 h-0.5 bg-rectangle97 my-1.5"></span>
+					<span id="line-bottom" class="block w-6 h-0.5 bg-rectangle97"></span>
 				</button>
 			</div>
 			</div>
@@ -270,6 +274,6 @@
 			</div>
 		</footer>
 
-		<script src="./js/main.js"></script>
+		<script src="./src/main.js"></script>
 	</body>
 </html>
