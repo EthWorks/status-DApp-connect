@@ -24,7 +24,7 @@ function scriptsTask(cb) {
 function imageminTask(cb) {
 	return src("./assets/images/*")
 		.pipe(imagemin())
-		.pipe(dest("./dist/assets/images"));
+		.pipe(dest("./dist/images"));
 	cb();
 }
 
