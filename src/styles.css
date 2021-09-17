@@ -23,3 +23,9 @@
 .body-noScroll {
     @apply overflow-hidden
 }
+
+#code br {
+    display: block;
+    content: "";
+    margin-top: 0;
+}

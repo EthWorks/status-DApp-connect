@@ -18534,6 +18534,12 @@ video {
   overflow: hidden
 }
 
+#code br {
+  display: block;
+  content: "";
+  margin-top: 0;
+}
+
 @media (min-width: 100%) {
   .none\:container {
     width: 100%;
