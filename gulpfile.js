@@ -22,9 +22,9 @@ function scriptsTask(cb) {
 
 // Task for minifying images
 function imageminTask(cb) {
-	return src("./assets/images/*")
+	return src("./assets/images/**/*")
 		.pipe(imagemin())
-		.pipe(dest("./dist/images"));
+		.pipe(dest("./dist/assets/images"));
 	cb();
 }
 
