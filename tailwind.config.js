@@ -57,10 +57,7 @@ module.exports = {
 			height: theme => ({
 				'17': '4.188rem',
 				'58': '14.5rem',
-				'88': '22rem',
-			}),
-			minHeight: theme => ({
-				'code': '22rm'
+				'custom': '22rem',
 			}),
 			width: theme => ({
 				'17': '4.188rem',

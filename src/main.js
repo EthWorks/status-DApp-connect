@@ -43,6 +43,13 @@ function isInViewport(element) {
     );
 }
 
+function eventOnScroll () {
+    if(isInViewport(section)) {
+        writeCode();
+        document.removeEventListener('scroll', eventOnScroll);
+    }
+}
+
 document.querySelector('#burger').addEventListener('click', menuVisibility);
 document.querySelector('.button--close').addEventListener('click', menuVisibility);
 window.addEventListener('resize', function () {
@@ -50,6 +57,4 @@ window.addEventListener('resize', function () {
         document.querySelector('body').classList.remove('body-noScroll')
     }
 })
-document.addEventListener('scroll', function () {
-    isInViewport(section) ? writeCode() : null;
-});
+document.addEventListener('scroll', eventOnScroll);
