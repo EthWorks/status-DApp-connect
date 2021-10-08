@@ -67,7 +67,6 @@ function build() {
 		.pipe(dest('dist'))
 }
 
-// exports.build = series(cssTask, scriptsTask, imageminTask, htmlBuild);
 exports.build = series(build);
 exports.default = series(cssTask, scriptsTask, htmlBuild, browsersyncServe, watchTask);
 exports.css = cssTask;
