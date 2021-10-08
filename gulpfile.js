@@ -57,7 +57,18 @@ function watchTask() {
 	watch(["./src/js/*.js"], series(scriptsTask, browsersyncReload));
 }
 
-exports.build = series(cssTask, scriptsTask, imageminTask, htmlBuild);
+function build() {
+	return src([
+		'src/css/style.min.css',
+		'src/assets/images/**/*',
+		'src/js/main.js',
+		'src/**/*.html ',
+	], {base: 'src'})
+		.pipe(dest('dist'))
+}
+
+// exports.build = series(cssTask, scriptsTask, imageminTask, htmlBuild);
+exports.build = series(build);
 exports.default = series(cssTask, scriptsTask, htmlBuild, browsersyncServe, watchTask);
 exports.css = cssTask;
 exports.images = imageminTask;
