@@ -4583,6 +4583,10 @@ video {
   height: 100vh;
 }
 
+.h-custom {
+  height: 22rem;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -18519,7 +18523,7 @@ video {
 }
 
 .menu-item:hover ul {
-  display: block;
+  display: block
 }
 
 .menu-item:hover img {
@@ -18535,9 +18539,9 @@ video {
 }
 
 #code br {
-  display: block;
   content: "";
-  margin-top: 0;
+  display: block;
+  margin-top: 0px
 }
 
 @media (min-width: 100%) {
@@ -22565,6 +22569,10 @@ video {
 
   .none\:h-screen {
     height: 100vh;
+  }
+
+  .none\:h-custom {
+    height: 22rem;
   }
 
   .none\:text-xs {
@@ -40451,6 +40459,10 @@ video {
     height: 100vh;
   }
 
+  .sm\:h-custom {
+    height: 22rem;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -58333,6 +58345,10 @@ video {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-custom {
+    height: 22rem;
   }
 
   .md\:text-xs {
@@ -76219,6 +76235,10 @@ video {
     height: 100vh;
   }
 
+  .lg\:h-custom {
+    height: 22rem;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -94101,6 +94121,10 @@ video {
 
   .xl\:h-screen {
     height: 100vh;
+  }
+
+  .xl\:h-custom {
+    height: 22rem;
   }
 
   .xl\:text-xs {
@@ -111987,6 +112011,10 @@ video {
     height: 100vh;
   }
 
+  .xxl\:h-custom {
+    height: 22rem;
+  }
+
   .xxl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -129869,6 +129897,10 @@ video {
 
   .xxxl\:h-screen {
     height: 100vh;
+  }
+
+  .xxxl\:h-custom {
+    height: 22rem;
   }
 
   .xxxl\:text-xs {

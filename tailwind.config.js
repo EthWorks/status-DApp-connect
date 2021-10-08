@@ -39,9 +39,9 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: theme => ({
-				'link-arrow-black': "url('../assets/images/arrow/arrow-black.svg')",
-				'link-arrow-blue': "url('../assets/images/arrow/arrow-blue.svg')",
-				'link-arrow-green': "url('../assets/images/arrow/arrow-green.svg')",
+				'link-arrow-black': "url('../images/arrow/arrow-black.svg')",
+				'link-arrow-blue': "url('../images/arrow/arrow-blue.svg')",
+				'link-arrow-green': "url('../images/arrow/arrow-green.svg')",
 			}),
 			fontFamily: {
 				'sans': 'Helvetica'

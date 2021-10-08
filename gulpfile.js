@@ -7,7 +7,7 @@ const uglify = require('gulp-uglify-es').default;
 function cssTask(cb) {
 	return src("./src/*.css")
 		.pipe(postcss())
-		.pipe(dest("./dist/css"))
+		.pipe(dest("./assets/css"))
 		.pipe(browserSync.stream());
 	cb();
 }
@@ -15,7 +15,7 @@ function cssTask(cb) {
 function scriptsTask(cb) {
 	return src('./src/*.js')
 		.pipe(uglify())
-		.pipe(dest('./dist/js'))
+		.pipe(dest('./assets/js'))
 		.pipe(browserSync.stream());
 	cb();
 }
@@ -24,15 +24,15 @@ function scriptsTask(cb) {
 function imageminTask(cb) {
 	return src("./assets/images/**/*")
 		.pipe(imagemin())
-		.pipe(dest("./dist/assets/images"));
+		.pipe(dest("./assets/images"));
 	cb();
 }
 
-function htmlBuild(cb) {
-	return src("./*.html")
-		.pipe(dest("./dist"))
-	cb();
-}
+// function htmlBuild(cb) {
+// 	return src("./*.html")
+// 		.pipe(dest("./dist"))
+// 	cb();
+// }
 
 function browsersyncServe(cb) {
 	browserSync.init({
@@ -55,7 +55,7 @@ function watchTask() {
 	watch(["./src/*.js"], series(scriptsTask, browsersyncReload));
 }
 
-exports.build = series(cssTask, scriptsTask, imageminTask, htmlBuild);
-exports.default = series(cssTask, scriptsTask, htmlBuild, browsersyncServe, watchTask);
+exports.build = series(cssTask, scriptsTask, imageminTask);
+exports.default = series(cssTask, scriptsTask, browsersyncServe, watchTask);
 exports.css = cssTask;
 exports.images = imageminTask;
