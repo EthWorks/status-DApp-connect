@@ -2,7 +2,7 @@
   "name": "dapp-connect",
   "version": "1.0.0",
   "description": "DApp Connect - landing page",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
     "dev": "gulp",
     "build": "NODE_ENV=production gulp build",
@@ -26,6 +26,7 @@
     "tailwindcss": "^2.0.3"
   },
   "dependencies": {
+    "gulp-concat": "^2.6.1",
     "gulp-uglify-es": "^3.0.0"
   }
 }

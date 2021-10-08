@@ -604,7 +604,7 @@ video {
 @font-face {
   font-family: 'Helvetica Nueu';
 
-  src: local('Helvetica Nueu'), url("./assets/fonts/HelveticaNeue.ttc");
+  src: local('Helvetica Nueu'), url("../assets/fonts/HelveticaNeue.ttc");
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -2044,15 +2044,15 @@ video {
 }
 
 .bg-link-arrow-black {
-  background-image: url('../images/arrow/arrow-black.svg');
+  background-image: url('../assets/images/arrow/arrow-black.svg');
 }
 
 .bg-link-arrow-blue {
-  background-image: url('../images/arrow/arrow-blue.svg');
+  background-image: url('../assets/images/arrow/arrow-blue.svg');
 }
 
 .bg-link-arrow-green {
-  background-image: url('../images/arrow/arrow-green.svg');
+  background-image: url('../assets/images/arrow/arrow-green.svg');
 }
 
 .from-rectangle96 {
@@ -20032,15 +20032,15 @@ video {
   }
 
   .none\:bg-link-arrow-black {
-    background-image: url('../images/arrow/arrow-black.svg');
+    background-image: url('../assets/images/arrow/arrow-black.svg');
   }
 
   .none\:bg-link-arrow-blue {
-    background-image: url('../images/arrow/arrow-blue.svg');
+    background-image: url('../assets/images/arrow/arrow-blue.svg');
   }
 
   .none\:bg-link-arrow-green {
-    background-image: url('../images/arrow/arrow-green.svg');
+    background-image: url('../assets/images/arrow/arrow-green.svg');
   }
 
   .none\:from-rectangle96 {
@@ -37920,15 +37920,15 @@ video {
   }
 
   .sm\:bg-link-arrow-black {
-    background-image: url('../images/arrow/arrow-black.svg');
+    background-image: url('../assets/images/arrow/arrow-black.svg');
   }
 
   .sm\:bg-link-arrow-blue {
-    background-image: url('../images/arrow/arrow-blue.svg');
+    background-image: url('../assets/images/arrow/arrow-blue.svg');
   }
 
   .sm\:bg-link-arrow-green {
-    background-image: url('../images/arrow/arrow-green.svg');
+    background-image: url('../assets/images/arrow/arrow-green.svg');
   }
 
   .sm\:from-rectangle96 {
@@ -55808,15 +55808,15 @@ video {
   }
 
   .md\:bg-link-arrow-black {
-    background-image: url('../images/arrow/arrow-black.svg');
+    background-image: url('../assets/images/arrow/arrow-black.svg');
   }
 
   .md\:bg-link-arrow-blue {
-    background-image: url('../images/arrow/arrow-blue.svg');
+    background-image: url('../assets/images/arrow/arrow-blue.svg');
   }
 
   .md\:bg-link-arrow-green {
-    background-image: url('../images/arrow/arrow-green.svg');
+    background-image: url('../assets/images/arrow/arrow-green.svg');
   }
 
   .md\:from-rectangle96 {
@@ -73696,15 +73696,15 @@ video {
   }
 
   .lg\:bg-link-arrow-black {
-    background-image: url('../images/arrow/arrow-black.svg');
+    background-image: url('../assets/images/arrow/arrow-black.svg');
   }
 
   .lg\:bg-link-arrow-blue {
-    background-image: url('../images/arrow/arrow-blue.svg');
+    background-image: url('../assets/images/arrow/arrow-blue.svg');
   }
 
   .lg\:bg-link-arrow-green {
-    background-image: url('../images/arrow/arrow-green.svg');
+    background-image: url('../assets/images/arrow/arrow-green.svg');
   }
 
   .lg\:from-rectangle96 {
@@ -91584,15 +91584,15 @@ video {
   }
 
   .xl\:bg-link-arrow-black {
-    background-image: url('../images/arrow/arrow-black.svg');
+    background-image: url('../assets/images/arrow/arrow-black.svg');
   }
 
   .xl\:bg-link-arrow-blue {
-    background-image: url('../images/arrow/arrow-blue.svg');
+    background-image: url('../assets/images/arrow/arrow-blue.svg');
   }
 
   .xl\:bg-link-arrow-green {
-    background-image: url('../images/arrow/arrow-green.svg');
+    background-image: url('../assets/images/arrow/arrow-green.svg');
   }
 
   .xl\:from-rectangle96 {
@@ -109472,15 +109472,15 @@ video {
   }
 
   .xxl\:bg-link-arrow-black {
-    background-image: url('../images/arrow/arrow-black.svg');
+    background-image: url('../assets/images/arrow/arrow-black.svg');
   }
 
   .xxl\:bg-link-arrow-blue {
-    background-image: url('../images/arrow/arrow-blue.svg');
+    background-image: url('../assets/images/arrow/arrow-blue.svg');
   }
 
   .xxl\:bg-link-arrow-green {
-    background-image: url('../images/arrow/arrow-green.svg');
+    background-image: url('../assets/images/arrow/arrow-green.svg');
   }
 
   .xxl\:from-rectangle96 {
@@ -127360,15 +127360,15 @@ video {
   }
 
   .xxxl\:bg-link-arrow-black {
-    background-image: url('../images/arrow/arrow-black.svg');
+    background-image: url('../assets/images/arrow/arrow-black.svg');
   }
 
   .xxxl\:bg-link-arrow-blue {
-    background-image: url('../images/arrow/arrow-blue.svg');
+    background-image: url('../assets/images/arrow/arrow-blue.svg');
   }
 
   .xxxl\:bg-link-arrow-green {
-    background-image: url('../images/arrow/arrow-green.svg');
+    background-image: url('../assets/images/arrow/arrow-green.svg');
   }
 
   .xxxl\:from-rectangle96 {

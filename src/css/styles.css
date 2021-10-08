@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Helvetica Nueu';
-    src: local('Helvetica Nueu'), url("./assets/fonts/HelveticaNeue.ttc");
+    src: local('Helvetica Nueu'), url("../assets/fonts/HelveticaNeue.ttc");
 }
 
 @tailwind utilities;
